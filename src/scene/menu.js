@@ -4,13 +4,13 @@ class Menu extends Phaser.Scene{
     }
 
     preload(){
-        this.load.audio('sfx_select', '../../assets/assets_blip_select12.wav');
-        this.load.audio('explosion00', '../../assets/assets_explosion38.wav');
-        this.load.audio('sfx_rocket', '../../assets/assets_rocket_shot.wav');
-        this.load.audio('explosion01',"../../assets/explosion01.mp3");
-        this.load.audio('explosion02',"../../assets/explosion02.mp3");
-        this.load.audio('explosion03',"../../assets/explosion03.mp3");
-        this.load.audio('explosion04',"../../assets/explosion04.mp3");
+        this.load.audio('sfx_select', 'rocketPatrolsModding/assets/assets_blip_select12.wav');
+        this.load.audio('explosion00', 'rocketPatrolsModding/assets/assets_explosion38.wav');
+        this.load.audio('sfx_rocket', 'rocketPatrolsModding/assets/assets_rocket_shot.wav');
+        this.load.audio('explosion01',"rocketPatrolsModding/assets/explosion01.mp3");
+        this.load.audio('explosion02',"rocketPatrolsModding/assets/explosion02.mp3");
+        this.load.audio('explosion03',"rocketPatrolsModding/assets/explosion03.mp3");
+        this.load.audio('explosion04',"rocketPatrolsModding/assets/explosion04.mp3");
     }
 
     create(){
